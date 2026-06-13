@@ -1,1 +1,1 @@
-web: python create_dataset.py && python app.py
+web: python lightgcn.py && python app.py
