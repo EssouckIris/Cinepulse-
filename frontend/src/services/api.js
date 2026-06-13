@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://127.0.0.1:5000"
+    baseURL: "https://zestful-liberation-production-0a3c.up.railway.app"
 });
 export const getRecommendations = (index)=>
     API.get(`/recommend/${index}`)
